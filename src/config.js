@@ -1,0 +1,18 @@
+module.exports = {
+    MAIN_SPAWN: 'Spawn1',
+
+    ROLE_HARVESTER: 'harvester',
+    ROLE_BUILDER: 'builder',
+    ROLE_UPGRADER: 'upgrader',
+
+    MAX_HARVESTERS_PER_SOURCE: 2,
+    MAX_UPGRADERS_COUNT: 3,
+    MAX_BUILDERS_COUNT: 4,
+
+    BODY_SMALL_HARVESTER: [ CARRY, WORK, MOVE, MOVE ],
+    BODY_SMALL_UPGRADER: [ CARRY, WORK, MOVE, MOVE ],
+    BODY_SMALL_BUILDER: [ CARRY, WORK, MOVE, MOVE ],
+
+    COLOR_YELLOW: '#ffaa00',
+    COLOR_WHITE: '#ffffff'
+};
